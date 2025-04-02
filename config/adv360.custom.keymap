@@ -68,6 +68,9 @@ ZMK_HOLD_TAP(hmr,
 // combos
 ZMK_COMBO(media_mute_1, &kp C_MUTE, RM2 RM3, LAY_MM) // j+k
 ZMK_COMBO(media_mute_2, &kp C_MUTE, RF2 RF3, LAY_MM) // down+up
+ZMK_COMBO(cut,          &kp LC(X),  LB4 LB2, LAY_BASE) // x+v
+ZMK_COMBO(copy,         &kp LC(C),  LB4 LB3, LAY_BASE) // x+c
+ZMK_COMBO(paste,        &kp LC(V),  LB3 LB2, LAY_BASE) // c+v
 
 // keymap
 
