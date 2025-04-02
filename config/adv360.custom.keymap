@@ -18,6 +18,8 @@
 #define XXX &none
 #define ___ &trans
 
+// layers
+#define LAY_BASE 0
 #define LAY_FN   1
 #define LAY_KP   2
 #define LAY_MM   3
