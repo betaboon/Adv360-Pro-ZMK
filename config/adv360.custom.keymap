@@ -65,6 +65,10 @@ ZMK_HOLD_TAP(hmr,
     hold-trigger-on-release;
 )
 
+// combos
+ZMK_COMBO(media_mute_1, &kp C_MUTE, RM2 RM3, LAY_MM) // j+k
+ZMK_COMBO(media_mute_2, &kp C_MUTE, RF2 RF3, LAY_MM) // down+up
+
 // keymap
 
 ZMK_LAYER(Base,
